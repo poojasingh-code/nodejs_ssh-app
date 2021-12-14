@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_software",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app",
+  "typings": "app",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.1",
+    "node-cmd": "^5.0.0",
+    "nodemon": "^2.0.15",
+    "simple-ssh": "^1.0.0",
+    "ssh-exec": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "nodemon app.js",
+    "app_": "node app_.js"
+  },
+  "author": "pooja",
+  "license": "ISC"
+}
